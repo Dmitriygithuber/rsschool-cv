@@ -46,7 +46,7 @@ At the moment, unfortunately, I have no experience
 ***
 
 * **University**: Moscow University of the Ministry of Internal Affairs of the Russian Federation the estates of V.Ya. Kikotya
-* **Courses: 
+* **Courses**: 
     + [WayUp](https://wayup.in/ru/  "WayUp")
     + [GeekBrains](https://gb.ru/ "GeekBrains")
 
