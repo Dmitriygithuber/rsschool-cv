@@ -21,7 +21,6 @@ I am sociable, purposeful and responsible, I like to explore new areas of activi
 
 **Code Example**
 ***
-'use strict';
 
 let Tc = prompt("Введите число, обозначающий градус цельсия");
 let Tf = 9 / 5;
