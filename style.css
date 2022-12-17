@@ -1,3 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Dosis", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .header {
-    background-color: aquamarine;
+    border: 1px red solid;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.main {
+    border: 1px rebeccapurple solid;
+}
+
+.section-profile {
+    display: flex;
+    align-items: center;
+    height: 190px;
+}
+
+.section-profile__box {
+    width: 50%;
+    text-align: center;
+}
+
+.section-profile__img-me {
+    width: 125px;
+    height: 125px;
+    display: block;
+    margin: 0 auto;
+}
+
+.section-profile__title {
+    font-size: 24px;
+    letter-spacing: 11px;
+    text-transform: uppercase;
+}
+
+.section-profile__text {
+    font-size: 18px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.footer {
+    border: 1px blanchedalmond solid;
 }
