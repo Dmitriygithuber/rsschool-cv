@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 html {
@@ -25,28 +26,71 @@ body {
     justify-content: space-between;
 }
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .header {
     background-color: #94c8d6;
 }
 
-.nav-list {
+.nav__list {
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
 }
 
-.nav-link {
-    padding: 0 20px;
+.nav__item {
+    padding: 20px 10px 20px 10px;
     line-height: 50px;
 }
 
-.main {
-    border: 1px rebeccapurple solid;
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.nav__link:hover {
+    color: #e3c3d4;
 }
 
 .section {
     width: calc(50% - 20px);
+    padding: 15px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #e3c3d4;
+}
+
+.section__title {
+    text-transform: uppercase;
+    font-size: 19px;
+    letter-spacing: 5px;
+    color: #94c8d6;
+}
+
+.section__item {
+    list-style: square;
+    padding: 5px;
+}
+
+.section__text {
+    font-size: 19px;
+}
+
+.section__list {
+    font-size: 19px;
+}
+
+.section__link {
+    color: #94c8d6;
+}
+
+.section__link:hover {
+    color: #e3c3d4;
 }
 
 .section-profile {
@@ -65,6 +109,7 @@ body {
 .section-profile__img-me {
     width: 200px;
     height: 200px;
+    filter: contrast(0.5);
 }
 
 .section-profile__title {
@@ -79,16 +124,27 @@ body {
     text-transform: uppercase;
 }
 
-.section-profile__text {}
-
 .footer {
-    border: 1px blanchedalmond solid;
+    background-color: #94c8d6;
 }
 
-.section__item {
-    list-style: none;
+.footer__text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px;
 }
 
-.bkg {
-    list-style-image: url(assets/github.svg);
+.footer__img {
+    width: 160px;
+    height: 80px;
+}
+
+.footer__wrp {
+    display: flex;
+}
+
+.footer__link {
+    color: #fff;
+    font-size: 20px;
 }

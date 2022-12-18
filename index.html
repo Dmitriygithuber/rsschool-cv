@@ -17,14 +17,31 @@
     <header class="header">
         <div class="container">
             <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"></li>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#contacts" class="nav__link">Contacts</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#summary" class="nav__link">Summary</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#code" class="nav__link">Code</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#courses" class="nav__link">Courses</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#project" class="nav__link">Project</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">Education</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#english" class="nav__link">English</a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -56,16 +73,20 @@
                         Location: Batumi, Georgia
                     </li>
                     <li class="section__item">
-                        Email: dimka_tupikin@mail.ru
+                        Email: <a href="mailto:dimka_tupikin@mail.ru" class="section__link" target="_blank"
+                            title="Email">dimka_tupikin@mail.ru</a>
                     </li>
-                    <li class="section__item bkg">
-                        Github: dmitriygithuber
+                    <li class="section__item section__item_icon-github">
+                        Github: <a href="https://github.com/Dmitriygithuber" class="section__link" target="_blank"
+                            title="Github">Dmitriygithuber</a>
                     </li>
                     <li class="section__item">
-                        Telegram: @dima_telegraman
+                        Telegram: <a href="https://t.me/dima_telegraman" class="section__link" target="_blank"
+                            title="Telegram">@dima_telegraman</a>
                     </li>
                     <li class="section__item">
-                        Discord: rakomnakapot#2009
+                        Discord: <a href="https://discord.com/channels/516715744646660106/920695268998021231"
+                            class="section__link" target="_blank" title="Discord">rakomnakapot#2009</a>
                     </li>
                 </ul>
             </section>
@@ -102,9 +123,9 @@
                 <h2 class="section__title">
                     code
                 </h2>
-                <pre><code>let Tc = prompt("Введите число, обозначающий градус цельсия");
-let Tf = 9 / 5;
-alert(Tf * Tc + 32 + "*С");</code></pre>
+                <p class="section__text">
+                    In progress...
+                </p>
             </section>
 
             <section class="section" id="courses">
@@ -113,10 +134,10 @@ alert(Tf * Tc + 32 + "*С");</code></pre>
                 </h2>
                 <ul class="section__list">
                     <li class="section__item">
-                        <a href="https://wayup.in/ru/" class="section__link">WayUp</a>
+                        <a href="https://wayup.in/ru/" class="section__link" target="_blank" title="WayUp">WayUp</a>
                     </li>
                     <li class="section__item">
-                        <a href="https://gb.ru/" class="section__Link">GeekBrains</a>
+                        <a href="https://gb.ru/" class="section__link" target="_blank" title="GeekBrains">GeekBrains</a>
                     </li>
                 </ul>
             </section>
@@ -151,7 +172,18 @@ alert(Tf * Tc + 32 + "*С");</code></pre>
     </main>
 
     <footer class="footer">
-
+        <div class="container footer-container">
+            <div class="footer__wrp">
+                <p class="footer__text">© 2022</p>
+                <p class="footer__text">
+                    <a href="https://github.com/Dmitriygithuber" class="footer__link" target="_blank"
+                        title="Github">Dmitry Tupikin</a>
+                </p>
+            </div>
+            <a href="https://rs.school/index.html" target="_blank" title="RSSchool">
+                <img src="assets/img/footer__img.svg" class="footer__img" alt="RSSchool">
+            </a>
+        </div>
     </footer>
 
 </body>
