@@ -72,11 +72,10 @@ body {
     border: 1px blanchedalmond solid;
 }
 
-.section__list-item {
+.section__item {
     list-style: none;
 }
 
 .bkg {
-    background-image: url(assets/github.svg);
-    background-repeat: no-repeat;
+    list-style-image: url(assets/github.svg);
 }
